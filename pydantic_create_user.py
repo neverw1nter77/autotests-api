@@ -10,6 +10,7 @@ class UserSchema(BaseModel):
     def get_full_name(self) -> str:
         parts = [self.first_name, self.middle_name, self.last_name]
         return " ".join([p for p in parts if p])
+
 class CreateUserRequestSchema(BaseModel):
     email: EmailStr
     password: str
