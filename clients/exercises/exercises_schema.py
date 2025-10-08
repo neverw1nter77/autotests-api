@@ -5,7 +5,7 @@ class ExerciseSchema(BaseModel):
     """
     Описание структуры задания.
     """
-    ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     id: str
     title: str
@@ -28,7 +28,9 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка заданий.
     """
-    courseId: str
+    model_config = ConfigDict(populate_by_name=True)
+
+    course_id: str = Field(alias="courseId")
 
 
 class GetExercisesResponseSchema(BaseModel):
@@ -42,7 +44,7 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание задания.
     """
-    ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     title: str
     course_id: str = Field(alias="courseId")
@@ -64,14 +66,14 @@ class UpdateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление задания.
     """
-    ConfigDict(populate_by_name=True)
+    model_config = ConfigDict(populate_by_name=True)
 
-    title: str | None = None
-    max_score: int | None = Field(alias="maxScore", default=None)
-    min_score: int | None = Field(alias="minScore", default=None)
-    order_index: int | None = Field(alias="orderIndex", default=None)
-    description: str | None = None
-    estimated_time: str | None = Field(alias="estimatedTime", default=None)
+    title: str | None
+    max_score: int | None = Field(alias="maxScore")
+    min_score: int | None = Field(alias="minScore")
+    order_index: int | None = Field(alias="orderIndex")
+    description: str | None
+    estimated_time: str | None = Field(alias="estimatedTime")
 
 
 class UpdateExerciseResponseSchema(BaseModel):
