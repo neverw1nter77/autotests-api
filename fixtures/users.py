@@ -29,10 +29,6 @@ class UserFixture(BaseModel):
             password=self.request.password
         )
 
-@pytest.fixture
-def authentication_client() -> AuthenticationClient:
-    return get_authentication_client()
-
 
 @pytest.fixture
 def public_users_client() -> PublicUsersClient:
@@ -49,4 +45,6 @@ def function_user(public_users_client: PublicUsersClient) -> UserFixture:
 
 @pytest.fixture
 def private_users_client(function_user: UserFixture) -> PrivateUsersClient:
+    """ЗАЛОГИНЕННЫЙ пользователь
+который может делать приватные запросы"""
     return get_private_user_client(function_user.authentication_user)

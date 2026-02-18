@@ -3,7 +3,7 @@ from httpx import Response
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.users.users_schema import GetUserResponseSchema, UpdateUserRequestSchema
 
-
+"""ЛОГИНИТСЯ этим же пользователем созданным в PublicUsersClient и ДЕЛАЕТ запросы от его имени"""
 class PrivateUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
@@ -49,6 +49,7 @@ class PrivateUsersClient(APIClient):
 
 def get_private_user_client(user: AuthenticationUserSchema) -> PrivateUsersClient:
     """
+    (делает login, получает token, создаёт авторизованный httpx.Client, передаёт его в PrivateUsersClient)
     Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
 
     :return: Готовый к использованию PrivateUsersClient.
