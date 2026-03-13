@@ -1,5 +1,5 @@
 from clients.courses.courses_schema import CourseSchema, UpdateCourseRequestSchema, UpdateCourseResponseSchema, \
-    GetCoursesResponseSchema, CreateCourseResponseSchema
+    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
@@ -58,3 +58,9 @@ def assert_get_courses_response(
 
     for index, create_course_response in enumerate(create_course_responses):
         assert_course(get_courses_response.courses[index], create_course_response.course)
+
+def assert_create_course_response(request: CreateCourseRequestSchema,
+    response: CreateCourseResponseSchema):
+
+    assert_equal(response.course.preview_file.id, request.preview_file_id, "preview_file_id")
+    assert_equal(response.course.created_by_user.id, request.created_by_user_id, "created_by_user_id")
