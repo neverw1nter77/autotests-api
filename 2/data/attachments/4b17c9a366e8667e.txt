@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjE4OjAyLjY4NTQ2MCIsInVzZXJfaWQiOiI4MjNjNDM0ZC1iY2Y5LTRjY2UtOWE2NS0xYjA2MjQ0MjE5NjEifQ.R0Jm6uF0H8-Yx0H88jKceJamYWOPSuURBdkfunnnbt8' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk whatever every require detail follow.","courseId":"bcc6bc07-4061-4362-96c1-305017a411db","maxScore":81,"minScore":22,"orderIndex":2,"description":"Hotel system vote they behind water deal. Foreign commercial minute month around do investment.\nDecide size describe would score. Here international bit computer fund.","estimatedTime":"5 weeks"}'

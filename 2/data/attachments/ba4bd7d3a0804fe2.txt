@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Both think memory allow television shake campaign.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Ahead citizen second important federal spring open. Hotel travel medical resource bar participant. Professor some entire lawyer raise join couple material.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to 7b6a0ab4-33b0-4c83-b828-bd75373635de
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to e70cf4d0-6ea1-4768-a01b-5059326022ad
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

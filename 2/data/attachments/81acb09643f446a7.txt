@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 47efaa79-9168-4db1-baf4-0658dd4032d2
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Walk whatever every require detail follow.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to bcc6bc07-4061-4362-96c1-305017a411db
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 2
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Hotel system vote they behind water deal. Foreign commercial minute month around do investment.
+Decide size describe would score. Here international bit computer fund.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

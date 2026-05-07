@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjE4OjAzLjcyOTUzMCIsInVzZXJfaWQiOiI3NDU4NmMwOC05MDNjLTQ3OWUtODBjMy0yNzlhYjZjZDkzYTQifQ.WU57vac745awh5cqLfRS9kiyLBTgHjLoBZgXXO0WBSo' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Outside society feeling someone add.","maxScore":70,"minScore":2,"description":"Pay arrive front. Draw field imagine thought glass. Something so true.\nWater answer war plant over black thought plan. Military week she go oil almost decade. Even local serious commercial.","estimatedTime":"3 weeks","previewFileId":"9701448d-dd67-455d-b324-978c89811601","createdByUserId":"74586c08-903c-479e-80c3-279ab6cd93a4"}'

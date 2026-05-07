@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjE4OjAwLjA5MDE3MCIsInVzZXJfaWQiOiIwMTk4ODc4Zi00NzI4LTRkNjEtODYzMy04YjEyMGJjZjcwN2MifQ.PpV-JWfGrma1o84xiVuhf5JZ56W6m8oWTs7THuOyghA' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Letter control good practice.","maxScore":88,"minScore":20,"description":"Safe responsibility bring hold. Party fact ask couple debate cell.\nAnalysis candidate fast front. Standard necessary suffer sea meet.\nWord need yet medical owner. Shake authority end century style.","estimatedTime":"3 weeks","previewFileId":"8a217fcd-a35e-4ce3-ab93-be5d9da8e0c6","createdByUserId":"0198878f-4728-4d61-8633-8b120bcf707c"}'

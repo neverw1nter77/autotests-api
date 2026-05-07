@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjE4OjAyLjY4NTQ2MCIsInVzZXJfaWQiOiI4MjNjNDM0ZC1iY2Y5LTRjY2UtOWE2NS0xYjA2MjQ0MjE5NjEifQ.R0Jm6uF0H8-Yx0H88jKceJamYWOPSuURBdkfunnnbt8' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real major glass fund pattern seat claim.","maxScore":95,"minScore":24,"description":"It image own. Resource water bring include south. Every those just head can.\nFrom leg indeed more how hour. Left key return bit. Then company now theory.","estimatedTime":"4 weeks","previewFileId":"877da9ef-535a-4f7e-bb14-4bfa536f9403","createdByUserId":"823c434d-bcf9-4cce-9a65-1b0624421961"}'
