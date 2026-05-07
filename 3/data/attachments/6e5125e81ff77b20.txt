@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjQwOjU0LjIwNzgwOSIsInVzZXJfaWQiOiIwZmQxMzczZi05NWViLTQ0MjktYTdmNi0xMmE3Y2Y1OWIxNzEifQ.ABFsMFpRnDFzTsPWBv8iILy9J-hRpSS0oK24RrqEbRg' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through dream industry often.","maxScore":98,"minScore":9,"description":"Best various concern floor professional reveal summer. Test represent yard why wait.\nQuickly develop customer speech begin bar. Represent many whose site. Laugh north rule.","estimatedTime":"3 weeks","previewFileId":"78f3e8b0-b942-4d83-b5ce-7d4d29e1442c","createdByUserId":"0fd1373f-95eb-4429-a7f6-12a7cf59b171"}'

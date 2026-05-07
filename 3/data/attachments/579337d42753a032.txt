@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjQwOjU0Ljc4NjQ4OSIsInVzZXJfaWQiOiJkOGY3NTYxYy1iYmMzLTQ4ZGMtYjY2Ni1kNjllYzdiYTg5OWMifQ.GrA3-bnRQ0ezJS1VcSaHvnGkzXN9divBB9r4FTqsNzM' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume color growth quality night drop.","courseId":"34f6bcd0-ef91-4cf2-99d6-d737beb5c90d","maxScore":58,"minScore":21,"orderIndex":10,"description":"Wall risk visit fire part. Magazine major reveal room. Culture effort position good car table.\nBorn office imagine. Course charge eight wide technology relationship.","estimatedTime":"6 weeks"}'

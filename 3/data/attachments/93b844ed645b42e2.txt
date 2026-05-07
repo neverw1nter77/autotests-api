@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDAzOjQwOjUyLjcxNzQzOCIsInVzZXJfaWQiOiJiNTI2OTUyZS05MTc4LTRiY2YtOGZiMy01NmYxNjI5NmEwNTUifQ.LMlQw4dqsPWaGcJ_s_u7I_gxs7odyxb-L9LMXEV4DpA' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During station weight business certain some.","maxScore":66,"minScore":24,"description":"Tonight after deal general down financial mention. Lay easy great speak close. Across others painting dream machine exactly accept.","estimatedTime":"8 weeks","previewFileId":"a1f57056-637c-4129-8ad8-524e7fbb7edd","createdByUserId":"b526952e-9178-4bcf-8fb3-56f16296a055"}'
