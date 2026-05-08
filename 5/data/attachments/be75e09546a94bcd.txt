@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAzOjAwOjU3LjIwNzMzOSIsInVzZXJfaWQiOiI1NjdhOTNiZS00MGZiLTRiNzMtYWRhMC1iZjFkYzA5YWI2OGMifQ.zvyTsIGWdpBwmKjZ1ZivoZGuf7csCqZH64I-DWR0FiY' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure each able together sport.","courseId":"4024883b-02ca-4cb9-8b89-d637a572a7ab","maxScore":92,"minScore":8,"orderIndex":28,"description":"Great yeah among relate laugh. Central sister page industry.\nPosition forward visit financial nor decade. News send foot case important agree feeling.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAzOjAwOjU4LjM4NDgzNiIsInVzZXJfaWQiOiJkN2M5ZTMwNC00MWNjLTRiNDctYjhhYi1lOTExNDQwZTgwMzcifQ.29sRaXyHaL-D6I8S_DXOSkvzJj8PUIxEn5Z0na2QXRo' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie among check year build.","maxScore":70,"minScore":24,"description":"Region listen learn cause accept really particularly. Always agent carry easy feeling population color.\nEat door will ball. Than only professional unit party fear enough. Together make game discover.","estimatedTime":"6 weeks","previewFileId":"91e0615d-a4f4-44e2-9086-5e08d4d3b546","createdByUserId":"d7c9e304-41cc-4b47-b8ab-e911440e8037"}'

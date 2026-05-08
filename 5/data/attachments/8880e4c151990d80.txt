@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAzOjAwOjU3LjgwOTc2OCIsInVzZXJfaWQiOiIyNTM0MTE4NS1lODhiLTQwZTgtOWY2NS1kNWRkMTk5Yjc5YzAifQ.jQ-cwnAa3-phXf7gPls7PngJiMpXZXx6AXiy40KJwgE' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teacher talk company herself.","maxScore":86,"minScore":6,"description":"Less sign western democratic. Exactly end close tough finish capital. This continue else.\nForward if imagine.\nAll thus fish certainly avoid everyone time stand. Best wide they every prove seat.","estimatedTime":"1 weeks","previewFileId":"878747f0-d92b-44f0-8bf5-f99b07f99721","createdByUserId":"25341185-e88b-40e8-9f65-d5dd199b79c0"}'
