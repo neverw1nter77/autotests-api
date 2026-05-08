@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAyOjU4OjE4LjI3ODg5OSIsInVzZXJfaWQiOiIwZWUwZTg2OC1kN2Y5LTRkYjItODA1OC1iNTU2NTFjZGRkMDgifQ.jW7_t-TF77GLDyhqmqzo4luyf038F0Qexo8_03DhaFw' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Six person before include.","maxScore":83,"minScore":24,"description":"Eight field available door born choose than. Involve talk new series author exist amount. Win not official dinner.\nWeek on strong day media effect. Data physical road hotel mission bit.","estimatedTime":"4 weeks","previewFileId":"e06d58ee-d23f-44c4-b785-d9bf3efadff1","createdByUserId":"0ee0e868-d7f9-4db2-8058-b55651cddd08"}'

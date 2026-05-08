@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to And happen science second certainly.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to f1ab6c14-ada8-4039-8ad9-88e9b47bde91
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Happen meeting blue she rule. Life clear letter hair early worry case.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAyOjU4OjE3LjczMDQyNSIsInVzZXJfaWQiOiI2Mjc1OWFhMC0yNmJlLTQ2ZjQtYjk0Yi02ZTFmNTg1YWE5NTAifQ.fUOmpYDAY1EJ7ilElULjaI6yvVRdmDflUMfgQa5aJ-k' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put movie employee generation gas.","maxScore":94,"minScore":11,"description":"Claim unit must firm information. Pm defense nice attention fall loss boy. Cause never edge catch dog necessary boy.","estimatedTime":"6 weeks","previewFileId":"7945a5ed-68c2-4254-9b1c-c5acb99c2e2e","createdByUserId":"62759aa0-26be-46f4-b94b-6e1f585aa950"}'

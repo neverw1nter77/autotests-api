@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAyOjU4OjE3LjczMDQyNSIsInVzZXJfaWQiOiI2Mjc1OWFhMC0yNmJlLTQ2ZjQtYjk0Yi02ZTFmNTg1YWE5NTAifQ.fUOmpYDAY1EJ7ilElULjaI6yvVRdmDflUMfgQa5aJ-k' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up world three middle.","courseId":"e4429aab-9539-4bae-a559-f3c83a51c7bd","maxScore":64,"minScore":15,"orderIndex":34,"description":"Food staff other. During bill later arrive data. Almost accept pick plan world.\nExpect water describe treatment nice risk spend. Respond investment paper walk.\nDeep theory country her marriage heavy.","estimatedTime":"7 weeks"}'

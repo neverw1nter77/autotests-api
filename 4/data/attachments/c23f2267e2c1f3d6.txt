@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/90fecf95-6e89-42df-8f2b-fe6e33fe580a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAyOjU4OjE0LjA0MDk4MSIsInVzZXJfaWQiOiJhNjkyMjZhZi1jNDlkLTQ4MzctYTUzZS1jNTgzYTdiNTM1OTYifQ.k9q6z4HhbcmJCviwuu8F53OqPZkqbeZHGKZXf0hI0KE' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer human explain long religious heart control.","maxScore":54,"minScore":22,"description":"Age need buy program respond care. Teacher suddenly arm so single.\nRest report writer. Popular radio Mr hundred final.","estimatedTime":"3 weeks"}'

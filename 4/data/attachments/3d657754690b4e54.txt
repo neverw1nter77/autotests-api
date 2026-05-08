@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA4VDAyOjU4OjE2LjAwNzU3NSIsInVzZXJfaWQiOiI4NmM1MTI5My0yZWM1LTQ1MGMtODQ0Ni1mMTEyN2RmODY3MjYifQ.F0K8qzqtwp7WlyI_n5ju9wz_eLz8qzs6JHwHDYvcIz8' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although task nice and.","maxScore":63,"minScore":24,"description":"South one herself affect pay decade. Help can mention against actually.\nRock must perhaps evening effort third. Institution teacher by building nearly.","estimatedTime":"6 weeks","previewFileId":"213fd635-6b2b-4e64-8626-1124a3eb7836","createdByUserId":"86c51293-2ec5-450c-8446-f1127df86726"}'
