@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0cb23ea0-60b0-427d-b75b-c19873571706' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU2OjMwLjAyNzk1MSIsInVzZXJfaWQiOiI5M2FiNjkyYS04ZjVmLTQwMzctYmVlMC01M2IxMmNiMWYxMGUifQ.t577HaAiP1m-wcZERznfaVv_WIXcvoG1CgBiEv2VCYs' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold lawyer head talk.","maxScore":74,"minScore":12,"description":"Too list back walk themselves top. Author but daughter reflect century. Base film actually various operation them responsibility store.","estimatedTime":"3 weeks"}'

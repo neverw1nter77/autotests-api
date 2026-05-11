@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU2OjMwLjkzNDE2OCIsInVzZXJfaWQiOiIwYzkyNTZkNi02NDUxLTQ5OTQtOTQxOC1kYjE4ZDk2ZDFmYjQifQ.RtjipA-D9MMuZbC1Jln-Ej41iaC6uW8P2994m-Vrmow' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Adult down stock say traditional.","maxScore":75,"minScore":19,"description":"Thought along in rest name size. Spring perhaps guess hospital current forget. Pay turn tax reason pass fine off nice.","estimatedTime":"6 weeks","previewFileId":"e9a75aae-7804-4acf-9d1e-244f5ee5a8d5","createdByUserId":"0c9256d6-6451-4994-9418-db18d96d1fb4"}'

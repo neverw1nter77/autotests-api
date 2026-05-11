@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU2OjMzLjMzMTk2NyIsInVzZXJfaWQiOiIxNWQ3OTJhNS1kOGQ0LTQ0YjYtYWY1Zi01MjcxODU0YTgyYzcifQ.6xO4egSPRyCvlSpaSM6i_45umPFqtdVmsZTVcuNy4YU' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then his cultural road reveal summer listen.","maxScore":72,"minScore":21,"description":"System character past animal society. Argue maybe care war here. Blue her head authority surface stuff.","estimatedTime":"8 weeks","previewFileId":"c5fbf0a6-c8a3-457d-868e-b4b80d9d7ca6","createdByUserId":"15d792a5-d8d4-44b6-af5f-5271854a82c7"}'

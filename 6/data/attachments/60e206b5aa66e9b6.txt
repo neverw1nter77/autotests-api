@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:62 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:38 Check course
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to f6e75b17-7614-47bd-938b-0ed401306800
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Adult down stock say traditional.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Thought along in rest name size. Spring perhaps guess hospital current forget. Pay turn tax reason pass fine off nice.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 6 weeks
+INFO     FILES_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to e9a75aae-7804-4acf-9d1e-244f5ee5a8d5
+INFO     BASE_ASSERTIONS:base.py:34 Check that "url" equals to http://localhost:8000/static/tests/c77045d6-baf1-48de-8018-6e7b929e2ced.png
+INFO     BASE_ASSERTIONS:base.py:34 Check that "filename" equals to c77045d6-baf1-48de-8018-6e7b929e2ced.png
+INFO     BASE_ASSERTIONS:base.py:34 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:32 Check user
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User id mismatch" equals to 0c9256d6-6451-4994-9418-db18d96d1fb4
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User email mismatch" equals to tanderson@example.com
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User last_name mismatch" equals to Hendrix
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User first_name mismatch" equals to Vincent
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User middle_name mismatch" equals to Brett
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

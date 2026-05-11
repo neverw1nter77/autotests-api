@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU2OjMwLjAyNzk1MSIsInVzZXJfaWQiOiI5M2FiNjkyYS04ZjVmLTQwMzctYmVlMC01M2IxMmNiMWYxMGUifQ.t577HaAiP1m-wcZERznfaVv_WIXcvoG1CgBiEv2VCYs' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common sea reveal scientist.","maxScore":75,"minScore":4,"description":"Address police practice left conference we actually art. Across evening partner mind necessary quality. Product meeting place cold.","estimatedTime":"9 weeks","previewFileId":"758f3488-9566-4041-bc9b-fe823f872948","createdByUserId":"93ab692a-8f5f-4037-bee0-53b12cb1f10e"}'

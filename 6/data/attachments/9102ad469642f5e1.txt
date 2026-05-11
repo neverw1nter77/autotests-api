@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU2OjMyLjY5MzMzOCIsInVzZXJfaWQiOiJjMmE3ZThiYS0yMTE2LTQ5MTQtOGI3NC1mNzY1MmUxZGI5ZjYifQ.qWHhL9tjv9G_2bgjTyCu7zk6TM4-fUEuAIh9s_Habhc' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Water occur doctor low.","maxScore":93,"minScore":29,"description":"Music production face read. Admit then here recent major to technology. Decide according financial these will eight in. Hotel painting outside nature create center.","estimatedTime":"3 weeks","previewFileId":"01baeeaf-0acc-4d33-96d7-35a6981b7ab2","createdByUserId":"c2a7e8ba-2116-4914-8b74-f7652e1db9f6"}'

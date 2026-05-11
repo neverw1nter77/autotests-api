@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercise response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 5392a778-9368-4b0c-8bde-6300eaeb58e6
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Answer glass others discussion.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 8f561631-b871-424f-94ff-6c72c01e1255
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 21
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Movement husband fight truth trade young safe. Painting us hair market end cold trip. Interview model record itself seat.
+Between pretty writer industry know raise participant probably.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema
