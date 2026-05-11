@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU3OjIwLjU2Nzg1MSIsInVzZXJfaWQiOiI1MmM4YTVmYy05Zjk3LTQ4OTUtOTc1OC0wOWNlYmI2Y2RlMzkifQ.oRSNTgriialiiltNzdXjUje4dEV0TfK51765IiZkhgw' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That season reach nation more reach door city.","maxScore":98,"minScore":18,"description":"Establish change evening figure visit. Resource minute these soldier. Bar skin leader.\nServe officer clear friend.","estimatedTime":"4 weeks","previewFileId":"b3e2fdea-8f6e-448f-a47e-86a3a71f12c5","createdByUserId":"52c8a5fc-9f97-4895-9758-09cebb6cde39"}'

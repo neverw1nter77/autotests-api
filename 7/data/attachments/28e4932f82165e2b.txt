@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU3OjE4LjkyMjM0OSIsInVzZXJfaWQiOiIxYTg2MzFiYy04MDFiLTRkODgtOWJjMy0yMDllZmI3N2UyZmIifQ.QuymxUbN2rsOgcvMUM7uVQEG9jkMwhxj7yWVVEHO_8w' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw writer ball city read live.","maxScore":59,"minScore":25,"description":"Court base organization put low.\nTreat upon control religious husband. Glass firm too.\nSea recently practice night TV recent. Perhaps party night agree we.","estimatedTime":"10 weeks","previewFileId":"59181b19-6637-4076-848a-c0662bbe5cc7","createdByUserId":"1a8631bc-801b-4d88-9bc3-209efb77e2fb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTExVDAyOjU3OjIwLjg4MTY2OCIsInVzZXJfaWQiOiIxMjVjYzc1NC1iNTdkLTQ5M2MtOGY3NC02OThhYjZiN2QxYTMifQ.NEv3Lt_YrCbKGS1iUPltirOIZ2dJfGrG7Dc86ESXQmM' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview same shoulder this a always.","courseId":"f4d27a23-5564-4615-9a40-9ebacd1a1234","maxScore":88,"minScore":5,"orderIndex":78,"description":"Until either strong. Leave suffer commercial money model. Agree air create heart economic family play.","estimatedTime":"2 weeks"}'

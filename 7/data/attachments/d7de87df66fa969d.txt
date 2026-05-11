@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 41969379-4663-4c7e-acd9-9ce9ad75f668
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Who no interest blue store make author.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 0f40eb2a-7bd6-41e5-8fe4-9a68a00d5845
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Drop popular among. Section purpose majority.
+North piece must TV many data particularly. Feel throughout learn less deal.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema
