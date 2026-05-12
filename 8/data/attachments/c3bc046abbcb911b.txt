@@ -1,0 +1,13 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:22 Check update course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Lot bed rock.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to These level billion however. Since because range common. Morning relationship nor significant east.
+True move arm law establish star. Military staff instead prevent mean task area.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

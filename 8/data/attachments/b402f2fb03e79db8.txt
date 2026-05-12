@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEyVDAyOjU4OjQ0LjY1NTY4MCIsInVzZXJfaWQiOiJkYjAzODFkYS05ODUzLTRmYmQtYjYwOC1iZDNjODZhMzliYjQifQ.wDMQP9SrubaiN69DRTl1LlFqzqUncDgIQduwpiXsPFk' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Learn country room or line writer with hospital.","maxScore":59,"minScore":17,"description":"Wife usually quality member environmental cause.\nMonth character note defense. Ever entire contain trouble including out. Ability various it agency knowledge team.","estimatedTime":"4 weeks","previewFileId":"e98065de-04db-44bb-8900-2b6b7625dd68","createdByUserId":"db0381da-9853-4fbd-b608-bd3c86a39bb4"}'

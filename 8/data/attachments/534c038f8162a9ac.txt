@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEyVDAyOjU4OjQ2LjAwNjk4OSIsInVzZXJfaWQiOiIwYTExNmIyNC04MWU0LTRiMjItYjYyMi01OTcwOWE2M2IyNDIifQ.egxoSwXFUQVva8tnpNk4rPxhsNhqGaNhJl1XRYRRW-s' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs number face rule market citizen report.","maxScore":58,"minScore":28,"description":"Ever hospital article watch after media.\nLawyer run hope inside show. Night enter early cell. Environment interview mouth do health billion.","estimatedTime":"10 weeks","previewFileId":"2d196b79-a699-4c2e-9537-1551264d2214","createdByUserId":"0a116b24-81e4-4b22-b622-59709a63b242"}'

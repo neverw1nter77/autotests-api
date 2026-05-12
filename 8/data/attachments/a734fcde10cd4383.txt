@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEyVDAyOjU4OjQzLjM0NTg5NiIsInVzZXJfaWQiOiI3MDVhNTZjZi1lM2UwLTQ4MzUtOGZiNS1hN2MxOTFhZTJmYTYifQ.jYwdnt1cM1KdGIzcpAd-JcyVUNpnhMIAryBJF3_RbHo' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health expert face brother risk kind report.","maxScore":59,"minScore":11,"description":"Once wonder raise great know simple son. Heart cup surface responsibility. Bar reduce tend.","estimatedTime":"4 weeks","previewFileId":"c9e2c5d9-4c9d-4a7c-89fd-d970ecab39a6","createdByUserId":"705a56cf-e3e0-4835-8fb5-a7c191ae2fa6"}'
