@@ -79,7 +79,7 @@ jobs:
           name: allure-results
           path: allure-results
 
-      # 10. Шаг для получения истории отчётов Allure, если она существует
+      # 10. Шаг для полу чения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v6
         if: always()
