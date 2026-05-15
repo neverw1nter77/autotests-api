@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercise response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 89b6602d-05a3-4a43-8d56-eb5fcac26770
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Mouth sort base.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to b6bb12c9-cabe-4e1f-9e2e-23427770a2cb
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 66
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Science information use cover note past. Next nature six land word hope. Painting probably yeah manage worker can happen.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

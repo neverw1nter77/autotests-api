@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE1VDAyOjM0OjU0LjM5MTMxNCIsInVzZXJfaWQiOiI5NzQxNWRkZC02YzhkLTQzNTctYTUwOC04NWE3ODIzNWFhN2IifQ.2Om8NS9oM1LRkEztSRq8O_J5thwSR6OORe1BTFFEa_Y' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General democratic green.","maxScore":90,"minScore":28,"description":"Kid buy her leg material. National strategy eye only important determine.\nStation she front official people official. My page off professor anyone.\nWhen music kid edge.","estimatedTime":"8 weeks","previewFileId":"4a9da3c3-5828-4977-99d4-e9680e158fcd","createdByUserId":"97415ddd-6c8d-4357-a508-85a78235aa7b"}'

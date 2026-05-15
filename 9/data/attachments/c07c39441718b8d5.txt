@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE1VDAyOjM0OjU3LjA5NzUzNiIsInVzZXJfaWQiOiJhYzAzYThiZS05YjAzLTQyNjYtYjkwYS1jMTZjZWI0NTI5NjkifQ.4Int0UZtvptnXkpicH__E-7r5-c0UnBU-RAIjK-xVvk' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When open cup oil.","maxScore":62,"minScore":16,"description":"Same second school cultural boy perhaps staff.\nHeart card safe involve international decide positive. Necessary weight full box much. Too enjoy for line help that three me.","estimatedTime":"7 weeks","previewFileId":"68b5d01f-2e32-4e54-b7b9-7603a188f10c","createdByUserId":"ac03a8be-9b03-4266-b90a-c16ceb452969"}'

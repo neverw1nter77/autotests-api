@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE1VDAyOjM0OjUyLjEwNDc3MSIsInVzZXJfaWQiOiI4ZDYwY2Y5Ni1hZTU5LTQzMTktODU5MS02M2M0ZTc1MTk4YTEifQ.Yc-6VgqEXk5dU0WMcm5eGD5ilWGvFPL_uNZuZL6sShY' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"New practice friend.","maxScore":64,"minScore":25,"description":"Left them into trade. Challenge sport soon force. Attack opportunity you hundred.","estimatedTime":"7 weeks","previewFileId":"64ba3c15-f589-4e7a-a429-7e4c67dd3a48","createdByUserId":"8d60cf96-ae59-4319-8591-63c4e75198a1"}'

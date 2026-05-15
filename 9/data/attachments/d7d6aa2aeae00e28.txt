@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a2eeb3cf-5d3b-4743-a186-c34992a4509e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE1VDAyOjM0OjUyLjEwNDc3MSIsInVzZXJfaWQiOiI4ZDYwY2Y5Ni1hZTU5LTQzMTktODU5MS02M2M0ZTc1MTk4YTEifQ.Yc-6VgqEXk5dU0WMcm5eGD5ilWGvFPL_uNZuZL6sShY' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Television occur provide less team.","maxScore":57,"minScore":10,"description":"Something never me term social perform finish might. Particularly mean brother PM important.\nPerform action end.\nListen east quite together free. North poor after.","estimatedTime":"2 weeks"}'
