@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjM1OjAwLjg3NDc4OSIsInVzZXJfaWQiOiJiYjg3MzMxNi0yYTJhLTRiMTEtODU0Yy00Y2ZhOTQzZmU3ZjMifQ.BH1vrpn5gqJNAiiF4RITS5INEdl2h4bbHp_ncexLTps' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant control movement leave different management.","maxScore":70,"minScore":30,"description":"Generation friend discussion garden continue sister expert. Can course wall here feel evidence. Class those skin small pay.","estimatedTime":"6 weeks","previewFileId":"752e6445-3188-44a4-8716-4800ac969ce0","createdByUserId":"bb873316-2a2a-4b11-854c-4cfa943fe7f3"}'

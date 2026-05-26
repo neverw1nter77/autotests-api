@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjM1OjAzLjU2MTkzMSIsInVzZXJfaWQiOiI0ZDA1YTI2Zi0xMjU0LTRjMDktYjdiOC1hZDJkMDJkZTIxNzIifQ.IcyP9RbAIT54TAByfqacQ51ZacNZvq47zOspYHXXhgo' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor account start able perform very society so.","maxScore":75,"minScore":17,"description":"Eye discuss measure religious mother win simply. Can trip bit. Its rather wide different.\nYes still future. Interesting level physical alone.\nWorry investment fire anyone.","estimatedTime":"4 weeks","previewFileId":"5ae56019-2772-457e-b6b5-700078825cf3","createdByUserId":"4d05a26f-1254-4c09-b7b8-ad2d02de2172"}'

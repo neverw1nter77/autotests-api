@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjM1OjAyLjE4MDg2NSIsInVzZXJfaWQiOiI1MTg3MDY5Yi1mZDhhLTRkZjktODhiMi0wZDU1Mjc2ZDQwNDMifQ.tj0Gx8R9vm5mO6lhY9tWh73UY0GRumftWfbxHFAY_f8' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bed scene generation would cost.","maxScore":82,"minScore":4,"description":"Though free growth away society between. Short year above someone. Certainly hold child fact coach easy these dinner.\nHand western network. Culture among watch care play too statement.","estimatedTime":"3 weeks","previewFileId":"8fc77e72-0061-4c9d-995a-c0457b2aa684","createdByUserId":"5187069b-fd8a-4df9-88b2-0d55276d4043"}'

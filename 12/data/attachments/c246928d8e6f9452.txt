@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Participant control movement leave different management.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Generation friend discussion garden continue sister expert. Can course wall here feel evidence. Class those skin small pay.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to 752e6445-3188-44a4-8716-4800ac969ce0
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to bb873316-2a2a-4b11-854c-4cfa943fe7f3
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

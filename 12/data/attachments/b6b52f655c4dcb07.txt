@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/83027cbb-c805-48a1-b99c-9c61d5b973a5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjM1OjAyLjE4MDg2NSIsInVzZXJfaWQiOiI1MTg3MDY5Yi1mZDhhLTRkZjktODhiMi0wZDU1Mjc2ZDQwNDMifQ.tj0Gx8R9vm5mO6lhY9tWh73UY0GRumftWfbxHFAY_f8' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy budget still TV close.","maxScore":75,"minScore":25,"orderIndex":6,"description":"Season ahead rule try sell outside land choose. Company blood state certainly. Action face Congress where.\nReflect ten two painting alone second because.","estimatedTime":"1 weeks"}'

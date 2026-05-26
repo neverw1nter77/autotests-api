@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjM1OjAxLjUyNTc2OSIsInVzZXJfaWQiOiI1NWYxNTI2ZS02Mjc2LTQ0ZTEtOGNhYy1lODM1M2NhYWQ2ZDgifQ.E8YP6sVtOAXRNt2wAbZR8uw0ziVIYpR_iTSvgEOz-eo' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Authority make receive order economic energy analysis.","maxScore":60,"minScore":22,"description":"Mention media rock family that floor. Serve keep protect.","estimatedTime":"1 weeks","previewFileId":"5c98cc41-670f-42e3-bf28-3bc3b3988f9f","createdByUserId":"55f1526e-6276-44e1-8cac-e8353caad6d8"}'

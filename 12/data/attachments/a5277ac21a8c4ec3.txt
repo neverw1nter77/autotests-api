@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjM0OjU5LjUyMDIwNCIsInVzZXJfaWQiOiI1NTU0NDEwNy05ZDQ3LTQ0MDctOTk1NC04NDYxZjUxYzQ2MjUifQ.IROCPWRtSb-KL81fV4cE8eXHSZ6WbX9FUhpxECzxg2o' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Week reach want worker east.","maxScore":55,"minScore":23,"description":"Well information nature look. Lead all form must realize book with.\nReceive receive fine there product particular. Per officer data number continue strategy control go.","estimatedTime":"10 weeks","previewFileId":"f3495087-1b60-41ba-bd11-8a330f5e96fb","createdByUserId":"55544107-9d47-4407-9954-8461f51c4625"}'
