@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjI3OjUzLjA1MDQxMiIsInVzZXJfaWQiOiIwOWI2YTdkYS1jZjFiLTRhOTAtYWI0Ny1jYjYzMjM3NjQwMGMifQ.Vi5aCYeScS8H35XRAvY-elQMrYOVuNsrWW4jQr0cl_U' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"About morning by character practice.","maxScore":68,"minScore":24,"description":"Trip hundred hit. Reflect may never affect choose.\nWhere whatever score clearly woman choose. Question my check morning body. Mr thought person view.","estimatedTime":"7 weeks","previewFileId":"51fe52b1-cb6c-46da-948c-7b9742c8f521","createdByUserId":"09b6a7da-cf1b-4a90-ab47-cb632376400c"}'

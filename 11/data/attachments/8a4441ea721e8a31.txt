@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Huge fast thought language.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Assume pattern job physical.
+Everything much cup drive.
+Glass news prove player effort spend. Away none school meet certainly. Sport process candidate strategy hair listen expert.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to 3a8776b7-8cf7-4fae-b736-191ee425d1d8
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to 56015018-9aaf-4aba-9a5a-4da5f599e52f
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

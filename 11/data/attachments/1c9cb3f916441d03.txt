@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjI3OjUzLjY3ODAzMyIsInVzZXJfaWQiOiI1NWMxZDZlNi0zMTljLTQ5NTEtODQ5ZS1iZDRmNmRmMGQ3ZGEifQ.J1T1T9rxHh7bOWvQo76oanTL2NU5R-x761RkodbggLM' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board draw computer character.","maxScore":63,"minScore":24,"description":"Accept wife movie policy. Then they behavior growth trade. Property push daughter oil risk wear.","estimatedTime":"9 weeks","previewFileId":"beaeb1f1-8af7-410c-8871-862016aa9f26","createdByUserId":"55c1d6e6-319c-4951-849e-bd4f6df0d7da"}'

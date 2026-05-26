@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 30e3225f-6a59-43a6-b881-ba94232c2eb9
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Hour ten employee soon doctor actually another.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 4f516be3-f932-43c1-ace9-74c9c34e1a26
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 60
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Foreign pressure agent sometimes different with.
+Stuff region land economy. Decision speak few source around camera left. Meet me quickly ten understand security go.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

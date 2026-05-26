@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/546de533-a6f3-4781-acde-e064b026577c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjI3OjUwLjQwMzk1MCIsInVzZXJfaWQiOiI2MTJiYjI1OC1kMWMzLTQyOTYtODhhZi00OGZhYzI1MGJlMGYifQ.0mw7RkoZRnBWnFwRp2v9lPogZbLDhg-eLPftMqcFJGc' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody security husband mention all.","maxScore":98,"minScore":30,"description":"Music throughout space act suggest particularly. As policy letter. Range risk someone matter business prepare affect.\nConcern chair condition hard single whose. High with interesting safe.","estimatedTime":"3 weeks"}'

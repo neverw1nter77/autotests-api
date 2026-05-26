@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjI3OjUxLjg5MDQ0MiIsInVzZXJfaWQiOiI1NjAxNTAxOC05YWFmLTRhYmEtOWE1YS00ZGE1ZjU5OWU1MmYifQ.FvRfQSPZm5JkCuNl7bwflOddwzHnsbd055wu0gCv5HA' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Huge fast thought language.","maxScore":93,"minScore":19,"description":"Assume pattern job physical.\nEverything much cup drive.\nGlass news prove player effort spend. Away none school meet certainly. Sport process candidate strategy hair listen expert.","estimatedTime":"6 weeks","previewFileId":"3a8776b7-8cf7-4fae-b736-191ee425d1d8","createdByUserId":"56015018-9aaf-4aba-9a5a-4da5f599e52f"}'

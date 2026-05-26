@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjI3OjU0LjI5NTc1NiIsInVzZXJfaWQiOiI1ZGIxMjAxYy1kZDZiLTQyNzMtYTJhYy1hODZjZTE4OTQ0YjAifQ.dYU3aQcQahLDPuclyJOPxJNxSPV0ah5yIdIdLQA7h14' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever education special suddenly.","maxScore":77,"minScore":17,"description":"Realize morning under way rather agree. Nice fund area give. Carry particular training believe present lot.\nFloor machine decision land again. Environmental task usually Mr bank.","estimatedTime":"9 weeks","previewFileId":"1b017f97-754c-474a-b677-8bdd2d1d407a","createdByUserId":"5db1201c-dd6b-4273-a2ac-a86ce18944b0"}'
