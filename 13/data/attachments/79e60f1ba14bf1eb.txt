@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA0LjIwOTE3MiIsInVzZXJfaWQiOiI3MDhkYTNmMi1kNzMyLTQwZTMtOTdkOS04ODdlMmE5OTRkMjcifQ.dLDUgzc7Cr1ocy9T0p213ATHw8wtufIv_GRKQ8vAwYU' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student stock must college bring little think personal.","maxScore":83,"minScore":21,"description":"Better race arrive. Parent American throughout bit east current.\nRate purpose read save catch commercial. Threat forget center need. Hundred film type teach.","estimatedTime":"2 weeks","previewFileId":"7cba1713-0c0f-4ba3-9ec8-0293c07f4825","createdByUserId":"708da3f2-d732-40e3-97d9-887e2a994d27"}'

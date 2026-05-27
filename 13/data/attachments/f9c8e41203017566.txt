@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA0Ljc2ODUzMCIsInVzZXJfaWQiOiIxODhmMzk1Ny0wZmY5LTQ4ZjUtYjZjOS04M2FhMGY1ODA3OTMifQ.QPytzVP0y9ihG5S5B95CSdJNg3uPpqYa97I43z2x0eU' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite machine word.","maxScore":72,"minScore":25,"description":"Manager every within collection hope.\nUp international hospital peace fire.\nDraw remember theory pass. Long relate meeting life but year off. Theory chair yet risk show.","estimatedTime":"2 weeks","previewFileId":"c56e8e8e-8b8a-489e-b38a-202541f251ef","createdByUserId":"188f3957-0ff9-48f5-b6c9-83aa0f580793"}'

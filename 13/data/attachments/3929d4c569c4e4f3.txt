@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c552f1ed-dc13-4ac7-ac7e-9442117557b0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA0LjIwOTE3MiIsInVzZXJfaWQiOiI3MDhkYTNmMi1kNzMyLTQwZTMtOTdkOS04ODdlMmE5OTRkMjcifQ.dLDUgzc7Cr1ocy9T0p213ATHw8wtufIv_GRKQ8vAwYU' \
+  -H 'content-length: 242' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American side process return pattern peace.","maxScore":56,"minScore":2,"description":"Federal may whether when today. Onto number student amount expect hotel spend. Raise alone item walk with civil look.","estimatedTime":"5 weeks"}'

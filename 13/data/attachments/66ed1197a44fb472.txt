@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA3LjA2NTY5NCIsInVzZXJfaWQiOiI3N2RlNzk3Yi0wZmZlLTQxNzgtOTFmZi0wMTFjZjU3ZGJkOGMifQ.yBliNfvsqcoLqnUq0V3o-CehNP-L_widivucPtBGM0A' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law study assume drop.","maxScore":90,"minScore":5,"description":"Week material yet night western again author. Tell project bag.\nEveryone star learn research perform. Course story break issue run present north.","estimatedTime":"8 weeks","previewFileId":"cfd45caa-b115-4826-b92d-b07250bfeca0","createdByUserId":"77de797b-0ffe-4178-91ff-011cf57dbd8c"}'

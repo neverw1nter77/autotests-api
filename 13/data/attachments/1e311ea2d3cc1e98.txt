@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA2LjQ4MDg4MSIsInVzZXJfaWQiOiI0MjcwMjI4NS04YTkyLTRhNTMtYjVkZi0xYzMzNjY5YWRmMWQifQ.fwZHcJw3pAZUjWfRE9nC5SCJTVlS-ubz0HNwXXZ5cEg' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pressure difficult himself.","maxScore":95,"minScore":16,"description":"Season bank address reveal state. Response way write effort add team.\nSit word economy car. Cup expect which energy production.\nRate figure buy behind better. Four board out even.","estimatedTime":"10 weeks","previewFileId":"5c8066e3-474e-4e03-ac64-19bea9e687f0","createdByUserId":"42702285-8a92-4a53-b5df-1c33669adf1d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA1LjM4MTI2NSIsInVzZXJfaWQiOiI3OTQ1YmI0ZC01OTAyLTQ2YjEtYTUxYi1iMDkzZjNhZDRhMWEifQ.oEshFw3TWvDJkke-qVt0X71xY4muY6ZERWAPNOkMZNs' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decide movement list eight seven.","maxScore":58,"minScore":22,"description":"Measure husband support natural wide land office serious. Investment anyone break despite.\nMyself until appear quite agent share. Space politics also decision. Down where still say later success.","estimatedTime":"7 weeks","previewFileId":"d3b87d11-8336-4efe-9837-88ca107e2f90","createdByUserId":"7945bb4d-5902-46b1-a51b-b093f3ad4a1a"}'

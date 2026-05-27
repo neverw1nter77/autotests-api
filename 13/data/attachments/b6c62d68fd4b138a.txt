@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to fc1a0499-d554-4ddd-a25f-691135fec880
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Get federal attention place white.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 561775de-8372-4f28-b787-4fbe985b2543
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 86
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Turn week media mean war. North change test model. Lead eight sea room.
+Herself green pick skill lay back none growth. More respond likely author name Mrs.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

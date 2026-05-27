@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA4LjI1MjcxMyIsInVzZXJfaWQiOiI2OWY4ZDk2Ni02NDVmLTRmMjMtODJhYS1mMmViYmY1YzNhY2UifQ.jU53lCmOodjxXAWfRBIoDlzoH95px3fCycjOvX9f3Fs' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treat beautiful drop success.","maxScore":70,"minScore":4,"description":"Management appear space specific young owner. Address place study strong. Suffer child later available hotel practice miss.\nTreat politics second generation take.","estimatedTime":"7 weeks","previewFileId":"7e90a3db-0c80-49c7-ada1-81cb505874d9","createdByUserId":"69f8d966-645f-4f23-82aa-f2ebbf5c3ace"}'

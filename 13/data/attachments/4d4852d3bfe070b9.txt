@@ -1,0 +1,28 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:62 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:38 Check course
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 2910305f-7a50-4478-b9c9-b0213dbca363
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Quite machine word.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Manager every within collection hope.
+Up international hospital peace fire.
+Draw remember theory pass. Long relate meeting life but year off. Theory chair yet risk show.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 2 weeks
+INFO     FILES_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to c56e8e8e-8b8a-489e-b38a-202541f251ef
+INFO     BASE_ASSERTIONS:base.py:34 Check that "url" equals to http://localhost:8000/static/tests/5e827b5d-83e3-4e4d-8b4c-8b36bd6c5241.png
+INFO     BASE_ASSERTIONS:base.py:34 Check that "filename" equals to 5e827b5d-83e3-4e4d-8b4c-8b36bd6c5241.png
+INFO     BASE_ASSERTIONS:base.py:34 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:32 Check user
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User id mismatch" equals to 188f3957-0ff9-48f5-b6c9-83aa0f580793
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User email mismatch" equals to daniel08@example.org
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User last_name mismatch" equals to Reed
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User first_name mismatch" equals to Samantha
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User middle_name mismatch" equals to Veronica
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6411ee80-bd89-4a42-b721-3d8a0fbb0a01' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA2LjQ4MDg4MSIsInVzZXJfaWQiOiI0MjcwMjI4NS04YTkyLTRhNTMtYjVkZi0xYzMzNjY5YWRmMWQifQ.fwZHcJw3pAZUjWfRE9nC5SCJTVlS-ubz0HNwXXZ5cEg' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy reflect analysis eight small fear record campaign.","maxScore":80,"minScore":5,"orderIndex":79,"description":"Gas position book magazine sister agent. Family fear themselves wish difference body.\nNetwork but wrong character watch wall line. Mind group exactly rich local trouble.","estimatedTime":"4 weeks"}'

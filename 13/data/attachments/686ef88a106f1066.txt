@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjA0OjA3LjA2NTY5NCIsInVzZXJfaWQiOiI3N2RlNzk3Yi0wZmZlLTQxNzgtOTFmZi0wMTFjZjU3ZGJkOGMifQ.yBliNfvsqcoLqnUq0V3o-CehNP-L_widivucPtBGM0A' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get federal attention place white.","courseId":"561775de-8372-4f28-b787-4fbe985b2543","maxScore":88,"minScore":27,"orderIndex":86,"description":"Turn week media mean war. North change test model. Lead eight sea room.\nHerself green pick skill lay back none growth. More respond likely author name Mrs.","estimatedTime":"10 weeks"}'
