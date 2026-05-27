@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjIyLjMzMTU0NyIsInVzZXJfaWQiOiI0NWMwMzk4Mi01Y2Q4LTQwMTUtYmQzMC0wMzAzMTE3YzkyYjIifQ.n3IZzcKw7Wr87hCu_Gyg0S-RPiKm-_kTZdPADfNPmZc' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Catch meet right actually administration sign skin.","maxScore":97,"minScore":5,"description":"Western nor guess event positive. Yes position range husband.\nWhether consider song research respond detail. Around happy soon listen understand wait during.","estimatedTime":"8 weeks","previewFileId":"7edceff0-9a57-463b-bb52-ea94d81c98e0","createdByUserId":"45c03982-5cd8-4015-bd30-0303117c92b2"}'

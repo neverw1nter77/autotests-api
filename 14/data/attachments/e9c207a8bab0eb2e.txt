@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI2LjUyMTE3OSIsInVzZXJfaWQiOiI3YTg4ZDM1Yy1hYzMzLTQ3NzMtODRlMC1jMDkzYjljYmE0YzgifQ.yjt5cbCOLu57FWhyFXbuN9hXsMWV9hR7K6a4M4wJ2pE' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner research write word.","maxScore":87,"minScore":27,"description":"Hit could recognize live however production health. Difference watch four late while.\nAct learn nation maintain imagine economy man. Training house town drive.","estimatedTime":"6 weeks","previewFileId":"39bf68c9-dfc7-4df7-afd0-9a7214a54710","createdByUserId":"7a88d35c-ac33-4773-84e0-c093b9cba4c8"}'

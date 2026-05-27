@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI0LjA3NjIyNSIsInVzZXJfaWQiOiJiM2Q2NTM4MC0xOGNjLTQ2NzUtYjVmYi1hYzQ4OTQxYmY2MzAifQ.a7byL-8bhZJ_WrDKLK-h55pkHh5AfS-aKWlYa4DYKxc' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Their bill very pick animal also.","maxScore":77,"minScore":28,"description":"Employee must at religious author begin. House certainly prove movement nation lot act.\nThrough idea goal six political under voice. Into put central federal season provide campaign.","estimatedTime":"2 weeks","previewFileId":"4b8a6c0f-5f8f-484f-b377-065c67e83e7f","createdByUserId":"b3d65380-18cc-4675-b5fb-ac48941bf630"}'

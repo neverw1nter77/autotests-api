@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercise response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to c68947f0-545b-4eab-9618-e94dfb3c335c
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Study sign central grow back industry.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to ba566c9f-d4a2-4a66-8845-3b570924439f
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 19
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to All when property conference part edge difference.
+Interesting authority suddenly health part. Western few budget direction. Here condition democratic certainly member what wonder.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI0Ljk3ODc0NSIsInVzZXJfaWQiOiI3Njk1NDgzNy0wYzc4LTQ4Y2YtOTJmMC0xODIyODAxNDdlMjkifQ.RhLby3m2a7QbCf6_uJLmNisbqOhYfhsPDVB2yrEMPV4' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong institution future detail your about.","maxScore":65,"minScore":17,"description":"Marriage keep year partner. Drop thing miss feeling seat. Minute body them who someone product report house.\nAround toward story lot language true.","estimatedTime":"3 weeks","previewFileId":"f330b0bd-2e34-4293-ac53-60a25888bf90","createdByUserId":"76954837-0c78-48cf-92f0-182280147e29"}'

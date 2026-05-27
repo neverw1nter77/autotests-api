@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:81 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Consider difficult PM draw affect from skin.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Southern process subject spend. Employee trade natural project just.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to d23325a3-efba-4437-a63f-7b28e721a6ab
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to 49fd5b9f-26a9-4c77-9469-5d128f31a9e5
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

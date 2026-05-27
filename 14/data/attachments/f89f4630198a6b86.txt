@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI1LjkzODg2OCIsInVzZXJfaWQiOiI4NTM0ZDI4NC1hODg3LTRkZDYtYWYxNS1jNzZmNmM5YWU4ZmYifQ.lCzKf58rI78eoa4KRtLOqG9BlxngEtl12rRS7M1DDeQ' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year development wear change.","courseId":"39fd41cc-9087-4f95-90c7-91254a35c383","maxScore":55,"minScore":2,"orderIndex":20,"description":"Tree prepare agency upon. Tree home point this respond various.\nStep country western ever. Pressure now body thought majority final. Sure wide until much sometimes. With among safe upon.","estimatedTime":"8 weeks"}'

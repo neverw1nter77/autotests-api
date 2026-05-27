@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjIyLjkxMDQxNCIsInVzZXJfaWQiOiI4MGJlNzdlZi05ZDYzLTQ0Y2UtYWNhZC1jMjE5OTNiNzg3NGMifQ.-XPSoffVgDcYoMxqsA3eCTLb-LkRvvMGH3xqbQ4qlMo' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical season actually system action.","maxScore":93,"minScore":6,"description":"Let minute several director. Green and local prepare surface growth.\nNot human friend. Girl report choose response. Free bill success so.","estimatedTime":"7 weeks","previewFileId":"e9c519fd-8fa8-43a7-b5db-39a0bcbe0d89","createdByUserId":"80be77ef-9d63-44ce-acad-c21993b7874c"}'

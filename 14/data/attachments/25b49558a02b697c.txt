@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI1LjkzODg2OCIsInVzZXJfaWQiOiI4NTM0ZDI4NC1hODg3LTRkZDYtYWYxNS1jNzZmNmM5YWU4ZmYifQ.lCzKf58rI78eoa4KRtLOqG9BlxngEtl12rRS7M1DDeQ' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him garden where skin improve.","maxScore":87,"minScore":2,"description":"Catch attention from face computer fine. Plan population development town church.","estimatedTime":"7 weeks","previewFileId":"c5836e24-88b4-4c4a-b80b-c2cafa812344","createdByUserId":"8534d284-a887-4dd6-af15-c76f6c9ae8ff"}'

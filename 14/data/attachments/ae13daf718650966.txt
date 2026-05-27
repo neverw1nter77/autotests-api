@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjIzLjgwMzUyNyIsInVzZXJfaWQiOiI0OWZkNWI5Zi0yNmE5LTRjNzctOTQ2OS01ZDEyOGYzMWE5ZTUifQ.L5WQGwAjEcq10OTabcXPOV5h11AcHWyyFE2mbIkrwFA' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consider difficult PM draw affect from skin.","maxScore":75,"minScore":29,"description":"Southern process subject spend. Employee trade natural project just.","estimatedTime":"1 weeks","previewFileId":"d23325a3-efba-4437-a63f-7b28e721a6ab","createdByUserId":"49fd5b9f-26a9-4c77-9469-5d128f31a9e5"}'

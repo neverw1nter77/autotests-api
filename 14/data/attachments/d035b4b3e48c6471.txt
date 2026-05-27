@@ -1,0 +1,27 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:62 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:38 Check course
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 268af44d-7c35-4612-b15f-8313bf6edcb5
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Physical season actually system action.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Let minute several director. Green and local prepare surface growth.
+Not human friend. Girl report choose response. Free bill success so.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to e9c519fd-8fa8-43a7-b5db-39a0bcbe0d89
+INFO     BASE_ASSERTIONS:base.py:34 Check that "url" equals to http://localhost:8000/static/tests/fc0f74f5-e674-4ea1-9f6f-a040f61f10eb.png
+INFO     BASE_ASSERTIONS:base.py:34 Check that "filename" equals to fc0f74f5-e674-4ea1-9f6f-a040f61f10eb.png
+INFO     BASE_ASSERTIONS:base.py:34 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:32 Check user
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User id mismatch" equals to 80be77ef-9d63-44ce-acad-c21993b7874c
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User email mismatch" equals to bradleydesiree@example.org
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User last_name mismatch" equals to Sanders
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User first_name mismatch" equals to Edwin
+INFO     BASE_ASSERTIONS:base.py:34 Check that "User middle_name mismatch" equals to Jeffrey
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

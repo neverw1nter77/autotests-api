@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI1LjI1MjM2MiIsInVzZXJfaWQiOiJlYTkwYjI2NS0zMTI4LTQyODQtYmM4OS1iYzAxNGU3NzM4ZjkifQ.bWf_CFmxoldWWvaLD7KSp6UmXMaEgnNISLkVNhU-2mQ' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation identify strategy agree mother.","maxScore":53,"minScore":4,"description":"Cover couple contain media meeting. Box memory hold. Anything old team upon improve at.\nMiddle lot moment Mrs customer society prepare. Arrive community whatever.","estimatedTime":"9 weeks","previewFileId":"e17d81fd-9c43-4a87-863f-f142f459da8b","createdByUserId":"ea90b265-3128-4284-bc89-bc014e7738f9"}'

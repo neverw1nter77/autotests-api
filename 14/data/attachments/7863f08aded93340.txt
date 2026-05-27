@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI3VDAyOjM1OjI0Ljk3ODc0NSIsInVzZXJfaWQiOiI3Njk1NDgzNy0wYzc4LTQ4Y2YtOTJmMC0xODIyODAxNDdlMjkifQ.RhLby3m2a7QbCf6_uJLmNisbqOhYfhsPDVB2yrEMPV4' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual sing much home.","courseId":"fdf1f1ba-e376-4cee-af09-b16c4a296d15","maxScore":77,"minScore":13,"orderIndex":76,"description":"Customer image oil rock future moment happen paper. Truth sound manage.\nStart especially able property. Continue feeling goal.","estimatedTime":"1 weeks"}'
