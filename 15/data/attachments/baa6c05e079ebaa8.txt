@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA1VDAyOjQzOjU5LjQyMjg5MCIsInVzZXJfaWQiOiJmNmVhN2FkMC0zMTkwLTQ4ZWUtYjk3Yi00NjllNWFjNDE4YzIifQ.176v_JS72gF3WkagXtW3Pf4kkkVCHssn4De8513SXgs' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International hard no building space worry church debate.","maxScore":52,"minScore":27,"description":"Hand indicate page recently sense government current write. Most interesting political on as behind operation. Talk special those measure week western.","estimatedTime":"4 weeks","previewFileId":"4d703c9e-843d-4e71-844d-f477beda4d94","createdByUserId":"f6ea7ad0-3190-48ee-b97b-469e5ac418c2"}'

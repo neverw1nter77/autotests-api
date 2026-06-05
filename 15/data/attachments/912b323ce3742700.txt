@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0b1e24b1-0972-4399-a7a6-57739ad15fa1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA1VDAyOjQ0OjAwLjU5MzEzNCIsInVzZXJfaWQiOiIyNzI1M2Y1Zi1kZDViLTRkOTItYWIwOS01NmRkMGEzZmQ1MzMifQ.T3wmPbzkz3ZtRIeqIWwvLQZict8Wv-ojES8q6w3rMow' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clearly production over yourself billion right.","maxScore":61,"minScore":30,"orderIndex":3,"description":"Defense ok social happen mission follow. Should learn score.\nCity create forward by threat. My land indeed window role.\nFor myself tough. Development stop culture.","estimatedTime":"5 weeks"}'

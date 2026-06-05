@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA1VDAyOjQzOjU4LjUzMTI4NCIsInVzZXJfaWQiOiJjODFmZTk2OS01ZWRiLTQxYWItYThhMC05MDE5OTI0Njc0OGQifQ.asU0l4XooDK2vOkgOlXRgFV33mE-oan3MuofhW-36A8' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though wait medical describe stage help.","maxScore":98,"minScore":16,"description":"Street throughout news expert. Energy notice player life agreement yet. True return lot property level.","estimatedTime":"3 weeks","previewFileId":"f44ac43c-0d9e-458a-bd36-b1aa60613437","createdByUserId":"c81fe969-5edb-41ab-a8a0-90199246748d"}'

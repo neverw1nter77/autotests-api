@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA1VDAyOjQ0OjAxLjU0MzU2NSIsInVzZXJfaWQiOiJlZGRlY2U0Zi1jYTg5LTRiYzItYTRmYi00OTFlODE0NTIzODgifQ.Ld3bMWUKfaryEw4Ng6nli_m_MH6gomPFK94Hbz_InIc' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance every step character.","maxScore":54,"minScore":5,"description":"Responsibility tough sea.\nSociety court energy dog memory company.\nSome staff kitchen traditional popular. Compare physical growth doctor however.","estimatedTime":"10 weeks","previewFileId":"09621be3-3ae3-46da-bb7c-31509d867747","createdByUserId":"eddece4f-ca89-4bc2-a4fb-491e81452388"}'

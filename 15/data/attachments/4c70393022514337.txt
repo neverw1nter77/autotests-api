@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTA1VDAyOjQ0OjAyLjExODkzNiIsInVzZXJfaWQiOiI4ZGE5NmFlOS0wM2RmLTRhZmEtOTczYi1hOTIyNjdjZTU5ZTQifQ.y7g1D-oe-56Fg63YkXZvsMpVRexDy-0Y3KSOW6GRJCQ' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen part away benefit everyone.","maxScore":84,"minScore":6,"description":"Name cultural really air worker card law. Too direction stay space gas hundred. According far man style show marriage offer someone. Agreement international program animal.","estimatedTime":"2 weeks","previewFileId":"bc4685cf-64d7-48da-acf1-6c0ca25a43ad","createdByUserId":"8da96ae9-03df-4afa-973b-a92267ce59e4"}'

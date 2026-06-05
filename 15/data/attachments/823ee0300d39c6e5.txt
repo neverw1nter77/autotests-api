@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercise response
+INFO     BASE_ASSERTIONS:base.py:68 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 05893c27-8af0-408c-98cd-f528979068fb
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Wait cup law up do.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to c238bcfb-fae6-4fb4-a023-0f93615bd04a
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 44
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Tree up cold service. Phone walk strategy boy thing day.
+Control myself ready. Our indicate all between brother. Admit fact chance value choose heavy hold.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema
